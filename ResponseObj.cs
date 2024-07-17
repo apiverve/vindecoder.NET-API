@@ -4,457 +4,467 @@ using Newtonsoft.Json;
 
 namespace APIVerve
 {
-public class data
+public class options
 {
-    [JsonProperty("ABS")]
-    public string aBS { get; set; }
+    [JsonProperty("abs")]
+    public string abs { get; set; }
 
-    [JsonProperty("ActiveSafetySysNote")]
-    public string activeSafetySysNote { get; set; }
+    [JsonProperty("activesafetysysnote")]
+    public string activesafetysysnote { get; set; }
 
-    [JsonProperty("AdaptiveCruiseControl")]
-    public string adaptiveCruiseControl { get; set; }
+    [JsonProperty("adaptivecruisecontrol")]
+    public string adaptivecruisecontrol { get; set; }
 
-    [JsonProperty("AdaptiveDrivingBeam")]
-    public string adaptiveDrivingBeam { get; set; }
+    [JsonProperty("adaptivedrivingbeam")]
+    public string adaptivedrivingbeam { get; set; }
 
-    [JsonProperty("AdaptiveHeadlights")]
-    public string adaptiveHeadlights { get; set; }
+    [JsonProperty("adaptiveheadlights")]
+    public string adaptiveheadlights { get; set; }
 
-    [JsonProperty("AdditionalErrorText")]
-    public string additionalErrorText { get; set; }
+    [JsonProperty("additionalerrortext")]
+    public string additionalerrortext { get; set; }
 
-    [JsonProperty("AirBagLocCurtain")]
-    public string airBagLocCurtain { get; set; }
+    [JsonProperty("airbagloccurtain")]
+    public string airbagloccurtain { get; set; }
 
-    [JsonProperty("AirBagLocFront")]
-    public string airBagLocFront { get; set; }
+    [JsonProperty("airbaglocfront")]
+    public string airbaglocfront { get; set; }
 
-    [JsonProperty("AirBagLocKnee")]
-    public string airBagLocKnee { get; set; }
+    [JsonProperty("airbaglocknee")]
+    public string airbaglocknee { get; set; }
 
-    [JsonProperty("AirBagLocSeatCushion")]
-    public string airBagLocSeatCushion { get; set; }
+    [JsonProperty("airbaglocseatcushion")]
+    public string airbaglocseatcushion { get; set; }
 
-    [JsonProperty("AirBagLocSide")]
-    public string airBagLocSide { get; set; }
+    [JsonProperty("airbaglocside")]
+    public string airbaglocside { get; set; }
 
-    [JsonProperty("AutoReverseSystem")]
-    public string autoReverseSystem { get; set; }
+    [JsonProperty("automaticpedestrianalertingsound")]
+    public string automaticpedestrianalertingsound { get; set; }
 
-    [JsonProperty("AutomaticPedestrianAlertingSound")]
-    public string automaticPedestrianAlertingSound { get; set; }
+    [JsonProperty("autoreversesystem")]
+    public string autoreversesystem { get; set; }
 
-    [JsonProperty("AxleConfiguration")]
-    public string axleConfiguration { get; set; }
+    [JsonProperty("axleconfiguration")]
+    public string axleconfiguration { get; set; }
 
-    [JsonProperty("Axles")]
+    [JsonProperty("axles")]
     public string axles { get; set; }
 
-    [JsonProperty("BasePrice")]
-    public string basePrice { get; set; }
+    [JsonProperty("baseprice")]
+    public string baseprice { get; set; }
 
-    [JsonProperty("BatteryA")]
-    public string batteryA { get; set; }
+    [JsonProperty("batterya")]
+    public string batterya { get; set; }
 
-    [JsonProperty("BatteryA_to")]
-    public string batteryAto { get; set; }
+    [JsonProperty("batterya_to")]
+    public string batteryato { get; set; }
 
-    [JsonProperty("BatteryCells")]
-    public string batteryCells { get; set; }
+    [JsonProperty("batterycells")]
+    public string batterycells { get; set; }
 
-    [JsonProperty("BatteryInfo")]
-    public string batteryInfo { get; set; }
+    [JsonProperty("batteryinfo")]
+    public string batteryinfo { get; set; }
 
-    [JsonProperty("BatteryKWh")]
-    public string batteryKWh { get; set; }
+    [JsonProperty("batterykwh")]
+    public string batterykwh { get; set; }
 
-    [JsonProperty("BatteryKWh_to")]
-    public string batteryKWhto { get; set; }
+    [JsonProperty("batterykwh_to")]
+    public string batterykwhto { get; set; }
 
-    [JsonProperty("BatteryModules")]
-    public string batteryModules { get; set; }
+    [JsonProperty("batterymodules")]
+    public string batterymodules { get; set; }
 
-    [JsonProperty("BatteryPacks")]
-    public string batteryPacks { get; set; }
+    [JsonProperty("batterypacks")]
+    public string batterypacks { get; set; }
 
-    [JsonProperty("BatteryType")]
-    public string batteryType { get; set; }
+    [JsonProperty("batterytype")]
+    public string batterytype { get; set; }
 
-    [JsonProperty("BatteryV")]
-    public string batteryV { get; set; }
+    [JsonProperty("batteryv")]
+    public string batteryv { get; set; }
 
-    [JsonProperty("BatteryV_to")]
-    public string batteryVto { get; set; }
+    [JsonProperty("batteryv_to")]
+    public string batteryvto { get; set; }
 
-    [JsonProperty("BedLengthIN")]
-    public string bedLengthIN { get; set; }
+    [JsonProperty("bedlengthin")]
+    public string bedlengthin { get; set; }
 
-    [JsonProperty("BedType")]
-    public string bedType { get; set; }
+    [JsonProperty("bedtype")]
+    public string bedtype { get; set; }
 
-    [JsonProperty("BlindSpotIntervention")]
-    public string blindSpotIntervention { get; set; }
+    [JsonProperty("blindspotintervention")]
+    public string blindspotintervention { get; set; }
 
-    [JsonProperty("BlindSpotMon")]
-    public string blindSpotMon { get; set; }
+    [JsonProperty("blindspotmon")]
+    public string blindspotmon { get; set; }
 
-    [JsonProperty("BodyCabType")]
-    public string bodyCabType { get; set; }
+    [JsonProperty("bodycabtype")]
+    public string bodycabtype { get; set; }
 
-    [JsonProperty("BodyClass")]
-    public string bodyClass { get; set; }
+    [JsonProperty("bodyclass")]
+    public string bodyclass { get; set; }
 
-    [JsonProperty("BrakeSystemDesc")]
-    public string brakeSystemDesc { get; set; }
+    [JsonProperty("brakesystemdesc")]
+    public string brakesystemdesc { get; set; }
 
-    [JsonProperty("BrakeSystemType")]
-    public string brakeSystemType { get; set; }
+    [JsonProperty("brakesystemtype")]
+    public string brakesystemtype { get; set; }
 
-    [JsonProperty("BusFloorConfigType")]
-    public string busFloorConfigType { get; set; }
+    [JsonProperty("busfloorconfigtype")]
+    public string busfloorconfigtype { get; set; }
 
-    [JsonProperty("BusLength")]
-    public string busLength { get; set; }
+    [JsonProperty("buslength")]
+    public string buslength { get; set; }
 
-    [JsonProperty("BusType")]
-    public string busType { get; set; }
+    [JsonProperty("bustype")]
+    public string bustype { get; set; }
 
-    [JsonProperty("CAN_AACN")]
-    public string cANAACN { get; set; }
+    [JsonProperty("can_aacn")]
+    public string canaacn { get; set; }
 
-    [JsonProperty("CIB")]
-    public string cIB { get; set; }
+    [JsonProperty("cashforclunkers")]
+    public string cashforclunkers { get; set; }
 
-    [JsonProperty("CashForClunkers")]
-    public string cashForClunkers { get; set; }
+    [JsonProperty("chargerlevel")]
+    public string chargerlevel { get; set; }
 
-    [JsonProperty("ChargerLevel")]
-    public string chargerLevel { get; set; }
+    [JsonProperty("chargerpowerkw")]
+    public string chargerpowerkw { get; set; }
 
-    [JsonProperty("ChargerPowerKW")]
-    public string chargerPowerKW { get; set; }
+    [JsonProperty("cib")]
+    public string cib { get; set; }
 
-    [JsonProperty("CoolingType")]
-    public string coolingType { get; set; }
+    [JsonProperty("coolingtype")]
+    public string coolingtype { get; set; }
 
-    [JsonProperty("CurbWeightLB")]
-    public string curbWeightLB { get; set; }
+    [JsonProperty("curbweightlb")]
+    public string curbweightlb { get; set; }
 
-    [JsonProperty("CustomMotorcycleType")]
-    public string customMotorcycleType { get; set; }
+    [JsonProperty("custommotorcycletype")]
+    public string custommotorcycletype { get; set; }
 
-    [JsonProperty("DaytimeRunningLight")]
-    public string daytimeRunningLight { get; set; }
+    [JsonProperty("daytimerunninglight")]
+    public string daytimerunninglight { get; set; }
 
-    [JsonProperty("DestinationMarket")]
-    public string destinationMarket { get; set; }
+    [JsonProperty("destinationmarket")]
+    public string destinationmarket { get; set; }
 
-    [JsonProperty("DisplacementCC")]
-    public string displacementCC { get; set; }
+    [JsonProperty("displacementcc")]
+    public string displacementcc { get; set; }
 
-    [JsonProperty("DisplacementCI")]
-    public string displacementCI { get; set; }
+    [JsonProperty("displacementci")]
+    public string displacementci { get; set; }
 
-    [JsonProperty("DisplacementL")]
-    public string displacementL { get; set; }
+    [JsonProperty("displacementl")]
+    public string displacementl { get; set; }
 
-    [JsonProperty("Doors")]
+    [JsonProperty("doors")]
     public string doors { get; set; }
 
-    [JsonProperty("DriveType")]
-    public string driveType { get; set; }
+    [JsonProperty("driverassist")]
+    public string driverassist { get; set; }
 
-    [JsonProperty("DriverAssist")]
-    public string driverAssist { get; set; }
+    [JsonProperty("drivetype")]
+    public string drivetype { get; set; }
 
-    [JsonProperty("DynamicBrakeSupport")]
-    public string dynamicBrakeSupport { get; set; }
+    [JsonProperty("dynamicbrakesupport")]
+    public string dynamicbrakesupport { get; set; }
 
-    [JsonProperty("EDR")]
-    public string eDR { get; set; }
+    [JsonProperty("edr")]
+    public string edr { get; set; }
 
-    [JsonProperty("ESC")]
-    public string eSC { get; set; }
+    [JsonProperty("electrificationlevel")]
+    public string electrificationlevel { get; set; }
 
-    [JsonProperty("EVDriveUnit")]
-    public string eVDriveUnit { get; set; }
+    [JsonProperty("engineconfiguration")]
+    public string engineconfiguration { get; set; }
 
-    [JsonProperty("ElectrificationLevel")]
-    public string electrificationLevel { get; set; }
+    [JsonProperty("enginecycles")]
+    public string enginecycles { get; set; }
 
-    [JsonProperty("EngineConfiguration")]
-    public string engineConfiguration { get; set; }
+    [JsonProperty("enginecylinders")]
+    public string enginecylinders { get; set; }
 
-    [JsonProperty("EngineCycles")]
-    public string engineCycles { get; set; }
+    [JsonProperty("enginehp")]
+    public string enginehp { get; set; }
 
-    [JsonProperty("EngineCylinders")]
-    public string engineCylinders { get; set; }
+    [JsonProperty("enginehp_to")]
+    public string enginehpto { get; set; }
 
-    [JsonProperty("EngineHP")]
-    public string engineHP { get; set; }
+    [JsonProperty("enginekw")]
+    public string enginekw { get; set; }
 
-    [JsonProperty("EngineHP_to")]
-    public string engineHPto { get; set; }
+    [JsonProperty("enginemanufacturer")]
+    public string enginemanufacturer { get; set; }
 
-    [JsonProperty("EngineKW")]
-    public string engineKW { get; set; }
+    [JsonProperty("enginemodel")]
+    public string enginemodel { get; set; }
 
-    [JsonProperty("EngineManufacturer")]
-    public string engineManufacturer { get; set; }
+    [JsonProperty("entertainmentsystem")]
+    public string entertainmentsystem { get; set; }
 
-    [JsonProperty("EngineModel")]
-    public string engineModel { get; set; }
+    [JsonProperty("errorcode")]
+    public string errorcode { get; set; }
 
-    [JsonProperty("EntertainmentSystem")]
-    public string entertainmentSystem { get; set; }
+    [JsonProperty("errortext")]
+    public string errortext { get; set; }
 
-    [JsonProperty("ErrorCode")]
-    public string errorCode { get; set; }
+    [JsonProperty("esc")]
+    public string esc { get; set; }
 
-    [JsonProperty("ErrorText")]
-    public string errorText { get; set; }
+    [JsonProperty("evdriveunit")]
+    public string evdriveunit { get; set; }
 
-    [JsonProperty("ForwardCollisionWarning")]
-    public string forwardCollisionWarning { get; set; }
+    [JsonProperty("forwardcollisionwarning")]
+    public string forwardcollisionwarning { get; set; }
 
-    [JsonProperty("FuelInjectionType")]
-    public string fuelInjectionType { get; set; }
+    [JsonProperty("fuelinjectiontype")]
+    public string fuelinjectiontype { get; set; }
 
-    [JsonProperty("FuelTypePrimary")]
-    public string fuelTypePrimary { get; set; }
+    [JsonProperty("fueltypeprimary")]
+    public string fueltypeprimary { get; set; }
 
-    [JsonProperty("FuelTypeSecondary")]
-    public string fuelTypeSecondary { get; set; }
+    [JsonProperty("fueltypesecondary")]
+    public string fueltypesecondary { get; set; }
 
-    [JsonProperty("GCWR")]
-    public string gCWR { get; set; }
+    [JsonProperty("gcwr")]
+    public string gcwr { get; set; }
 
-    [JsonProperty("GCWR_to")]
-    public string gCWRto { get; set; }
+    [JsonProperty("gcwr_to")]
+    public string gcwrto { get; set; }
 
-    [JsonProperty("GVWR")]
-    public string gVWR { get; set; }
+    [JsonProperty("gvwr")]
+    public string gvwr { get; set; }
 
-    [JsonProperty("GVWR_to")]
-    public string gVWRto { get; set; }
+    [JsonProperty("gvwr_to")]
+    public string gvwrto { get; set; }
 
-    [JsonProperty("KeylessIgnition")]
-    public string keylessIgnition { get; set; }
+    [JsonProperty("keylessignition")]
+    public string keylessignition { get; set; }
 
-    [JsonProperty("LaneCenteringAssistance")]
-    public string laneCenteringAssistance { get; set; }
+    [JsonProperty("lanecenteringassistance")]
+    public string lanecenteringassistance { get; set; }
 
-    [JsonProperty("LaneDepartureWarning")]
-    public string laneDepartureWarning { get; set; }
+    [JsonProperty("lanedeparturewarning")]
+    public string lanedeparturewarning { get; set; }
 
-    [JsonProperty("LaneKeepSystem")]
-    public string laneKeepSystem { get; set; }
+    [JsonProperty("lanekeepsystem")]
+    public string lanekeepsystem { get; set; }
 
-    [JsonProperty("LowerBeamHeadlampLightSource")]
-    public string lowerBeamHeadlampLightSource { get; set; }
+    [JsonProperty("lowerbeamheadlamplightsource")]
+    public string lowerbeamheadlamplightsource { get; set; }
 
-    [JsonProperty("Make")]
-    public string make { get; set; }
+    [JsonProperty("makeid")]
+    public string makeid { get; set; }
 
-    [JsonProperty("MakeID")]
-    public string makeID { get; set; }
+    [JsonProperty("manufacturerid")]
+    public string manufacturerid { get; set; }
 
-    [JsonProperty("Manufacturer")]
-    public string manufacturer { get; set; }
+    [JsonProperty("modelid")]
+    public string modelid { get; set; }
 
-    [JsonProperty("ManufacturerId")]
-    public string manufacturerId { get; set; }
+    [JsonProperty("motorcyclechassistype")]
+    public string motorcyclechassistype { get; set; }
 
-    [JsonProperty("Model")]
-    public string model { get; set; }
+    [JsonProperty("motorcyclesuspensiontype")]
+    public string motorcyclesuspensiontype { get; set; }
 
-    [JsonProperty("ModelID")]
-    public string modelID { get; set; }
+    [JsonProperty("ncsabodytype")]
+    public string ncsabodytype { get; set; }
 
-    [JsonProperty("ModelYear")]
-    public string modelYear { get; set; }
+    [JsonProperty("ncsamake")]
+    public string ncsamake { get; set; }
 
-    [JsonProperty("MotorcycleChassisType")]
-    public string motorcycleChassisType { get; set; }
+    [JsonProperty("ncsamapexcapprovedby")]
+    public string ncsamapexcapprovedby { get; set; }
 
-    [JsonProperty("MotorcycleSuspensionType")]
-    public string motorcycleSuspensionType { get; set; }
+    [JsonProperty("ncsamapexcapprovedon")]
+    public string ncsamapexcapprovedon { get; set; }
 
-    [JsonProperty("NCSABodyType")]
-    public string nCSABodyType { get; set; }
+    [JsonProperty("ncsamappingexception")]
+    public string ncsamappingexception { get; set; }
 
-    [JsonProperty("NCSAMake")]
-    public string nCSAMake { get; set; }
+    [JsonProperty("ncsamodel")]
+    public string ncsamodel { get; set; }
 
-    [JsonProperty("NCSAMapExcApprovedBy")]
-    public string nCSAMapExcApprovedBy { get; set; }
+    [JsonProperty("ncsanote")]
+    public string ncsanote { get; set; }
 
-    [JsonProperty("NCSAMapExcApprovedOn")]
-    public string nCSAMapExcApprovedOn { get; set; }
+    [JsonProperty("nonlanduse")]
+    public string nonlanduse { get; set; }
 
-    [JsonProperty("NCSAMappingException")]
-    public string nCSAMappingException { get; set; }
-
-    [JsonProperty("NCSAModel")]
-    public string nCSAModel { get; set; }
-
-    [JsonProperty("NCSANote")]
-    public string nCSANote { get; set; }
-
-    [JsonProperty("NonLandUse")]
-    public string nonLandUse { get; set; }
-
-    [JsonProperty("Note")]
+    [JsonProperty("note")]
     public string note { get; set; }
 
-    [JsonProperty("OtherBusInfo")]
-    public string otherBusInfo { get; set; }
+    [JsonProperty("otherbusinfo")]
+    public string otherbusinfo { get; set; }
 
-    [JsonProperty("OtherEngineInfo")]
-    public string otherEngineInfo { get; set; }
+    [JsonProperty("otherengineinfo")]
+    public string otherengineinfo { get; set; }
 
-    [JsonProperty("OtherMotorcycleInfo")]
-    public string otherMotorcycleInfo { get; set; }
+    [JsonProperty("othermotorcycleinfo")]
+    public string othermotorcycleinfo { get; set; }
 
-    [JsonProperty("OtherRestraintSystemInfo")]
-    public string otherRestraintSystemInfo { get; set; }
+    [JsonProperty("otherrestraintsysteminfo")]
+    public string otherrestraintsysteminfo { get; set; }
 
-    [JsonProperty("OtherTrailerInfo")]
-    public string otherTrailerInfo { get; set; }
+    [JsonProperty("othertrailerinfo")]
+    public string othertrailerinfo { get; set; }
 
-    [JsonProperty("ParkAssist")]
-    public string parkAssist { get; set; }
+    [JsonProperty("parkassist")]
+    public string parkassist { get; set; }
 
-    [JsonProperty("PedestrianAutomaticEmergencyBraking")]
-    public string pedestrianAutomaticEmergencyBraking { get; set; }
+    [JsonProperty("pedestrianautomaticemergencybraking")]
+    public string pedestrianautomaticemergencybraking { get; set; }
 
-    [JsonProperty("PlantCity")]
-    public string plantCity { get; set; }
+    [JsonProperty("plantcity")]
+    public string plantcity { get; set; }
 
-    [JsonProperty("PlantCompanyName")]
-    public string plantCompanyName { get; set; }
+    [JsonProperty("plantcompanyname")]
+    public string plantcompanyname { get; set; }
 
-    [JsonProperty("PlantCountry")]
-    public string plantCountry { get; set; }
+    [JsonProperty("plantcountry")]
+    public string plantcountry { get; set; }
 
-    [JsonProperty("PlantState")]
-    public string plantState { get; set; }
+    [JsonProperty("plantstate")]
+    public string plantstate { get; set; }
 
-    [JsonProperty("PossibleValues")]
-    public string possibleValues { get; set; }
+    [JsonProperty("possiblevalues")]
+    public string possiblevalues { get; set; }
 
-    [JsonProperty("Pretensioner")]
+    [JsonProperty("pretensioner")]
     public string pretensioner { get; set; }
 
-    [JsonProperty("RearAutomaticEmergencyBraking")]
-    public string rearAutomaticEmergencyBraking { get; set; }
+    [JsonProperty("rearautomaticemergencybraking")]
+    public string rearautomaticemergencybraking { get; set; }
 
-    [JsonProperty("RearCrossTrafficAlert")]
-    public string rearCrossTrafficAlert { get; set; }
+    [JsonProperty("rearcrosstrafficalert")]
+    public string rearcrosstrafficalert { get; set; }
 
-    [JsonProperty("RearVisibilitySystem")]
-    public string rearVisibilitySystem { get; set; }
+    [JsonProperty("rearvisibilitysystem")]
+    public string rearvisibilitysystem { get; set; }
 
-    [JsonProperty("SAEAutomationLevel")]
-    public string sAEAutomationLevel { get; set; }
+    [JsonProperty("saeautomationlevel")]
+    public string saeautomationlevel { get; set; }
 
-    [JsonProperty("SAEAutomationLevel_to")]
-    public string sAEAutomationLevelto { get; set; }
+    [JsonProperty("saeautomationlevel_to")]
+    public string saeautomationlevelto { get; set; }
 
-    [JsonProperty("SeatBeltsAll")]
-    public string seatBeltsAll { get; set; }
+    [JsonProperty("seatbeltsall")]
+    public string seatbeltsall { get; set; }
 
-    [JsonProperty("SeatRows")]
-    public string seatRows { get; set; }
+    [JsonProperty("seatrows")]
+    public string seatrows { get; set; }
 
-    [JsonProperty("Seats")]
+    [JsonProperty("seats")]
     public string seats { get; set; }
 
-    [JsonProperty("SemiautomaticHeadlampBeamSwitching")]
-    public string semiautomaticHeadlampBeamSwitching { get; set; }
+    [JsonProperty("semiautomaticheadlampbeamswitching")]
+    public string semiautomaticheadlampbeamswitching { get; set; }
 
-    [JsonProperty("Series")]
+    [JsonProperty("series")]
     public string series { get; set; }
 
-    [JsonProperty("Series2")]
+    [JsonProperty("series2")]
     public string series2 { get; set; }
 
-    [JsonProperty("SteeringLocation")]
-    public string steeringLocation { get; set; }
+    [JsonProperty("steeringlocation")]
+    public string steeringlocation { get; set; }
 
-    [JsonProperty("SuggestedVIN")]
-    public string suggestedVIN { get; set; }
+    [JsonProperty("suggestedvin")]
+    public string suggestedvin { get; set; }
 
-    [JsonProperty("TPMS")]
-    public string tPMS { get; set; }
+    [JsonProperty("topspeedmph")]
+    public string topspeedmph { get; set; }
 
-    [JsonProperty("TopSpeedMPH")]
-    public string topSpeedMPH { get; set; }
+    [JsonProperty("tpms")]
+    public string tpms { get; set; }
 
-    [JsonProperty("TrackWidth")]
-    public string trackWidth { get; set; }
+    [JsonProperty("trackwidth")]
+    public string trackwidth { get; set; }
 
-    [JsonProperty("TractionControl")]
-    public string tractionControl { get; set; }
+    [JsonProperty("tractioncontrol")]
+    public string tractioncontrol { get; set; }
 
-    [JsonProperty("TrailerBodyType")]
-    public string trailerBodyType { get; set; }
+    [JsonProperty("trailerbodytype")]
+    public string trailerbodytype { get; set; }
 
-    [JsonProperty("TrailerLength")]
-    public string trailerLength { get; set; }
+    [JsonProperty("trailerlength")]
+    public string trailerlength { get; set; }
 
-    [JsonProperty("TrailerType")]
-    public string trailerType { get; set; }
+    [JsonProperty("trailertype")]
+    public string trailertype { get; set; }
 
-    [JsonProperty("TransmissionSpeeds")]
-    public string transmissionSpeeds { get; set; }
+    [JsonProperty("transmissionspeeds")]
+    public string transmissionspeeds { get; set; }
 
-    [JsonProperty("TransmissionStyle")]
-    public string transmissionStyle { get; set; }
+    [JsonProperty("transmissionstyle")]
+    public string transmissionstyle { get; set; }
 
-    [JsonProperty("Trim")]
+    [JsonProperty("trim")]
     public string trim { get; set; }
 
-    [JsonProperty("Trim2")]
+    [JsonProperty("trim2")]
     public string trim2 { get; set; }
 
-    [JsonProperty("Turbo")]
+    [JsonProperty("turbo")]
     public string turbo { get; set; }
 
-    [JsonProperty("VIN")]
-    public string vIN { get; set; }
+    [JsonProperty("valvetraindesign")]
+    public string valvetraindesign { get; set; }
 
-    [JsonProperty("ValveTrainDesign")]
-    public string valveTrainDesign { get; set; }
+    [JsonProperty("vehicledescriptor")]
+    public string vehicledescriptor { get; set; }
 
-    [JsonProperty("VehicleDescriptor")]
-    public string vehicleDescriptor { get; set; }
+    [JsonProperty("vehicletype")]
+    public string vehicletype { get; set; }
 
-    [JsonProperty("VehicleType")]
-    public string vehicleType { get; set; }
+    [JsonProperty("wheelbaselong")]
+    public string wheelbaselong { get; set; }
 
-    [JsonProperty("WheelBaseLong")]
-    public string wheelBaseLong { get; set; }
+    [JsonProperty("wheelbaseshort")]
+    public string wheelbaseshort { get; set; }
 
-    [JsonProperty("WheelBaseShort")]
-    public string wheelBaseShort { get; set; }
+    [JsonProperty("wheelbasetype")]
+    public string wheelbasetype { get; set; }
 
-    [JsonProperty("WheelBaseType")]
-    public string wheelBaseType { get; set; }
-
-    [JsonProperty("WheelSizeFront")]
-    public string wheelSizeFront { get; set; }
-
-    [JsonProperty("WheelSizeRear")]
-    public string wheelSizeRear { get; set; }
-
-    [JsonProperty("Wheels")]
+    [JsonProperty("wheels")]
     public string wheels { get; set; }
 
-    [JsonProperty("Windows")]
+    [JsonProperty("wheelsizefront")]
+    public string wheelsizefront { get; set; }
+
+    [JsonProperty("wheelsizerear")]
+    public string wheelsizerear { get; set; }
+
+    [JsonProperty("windows")]
     public string windows { get; set; }
+
+}
+
+public class data
+{
+    [JsonProperty("make")]
+    public string make { get; set; }
+
+    [JsonProperty("manufacturer")]
+    public string manufacturer { get; set; }
+
+    [JsonProperty("model")]
+    public string model { get; set; }
+
+    [JsonProperty("options")]
+    public options options { get; set; }
+
+    [JsonProperty("trim")]
+    public string trim { get; set; }
+
+    [JsonProperty("vin")]
+    public string vin { get; set; }
+
+    [JsonProperty("year")]
+    public string year { get; set; }
 
 }
 
