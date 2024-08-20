@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new vindecoderQueryOptions {
+var queryOptions = new VINDecoderQueryOptions {
   vin = "1HGCM82633A004352"
 };
 ```
@@ -247,7 +247,8 @@ if(response.error != null) {
     "trim": "EX-V6",
     "vin": "1HGCM82633A004352",
     "year": "2003"
-  }
+  },
+  "code": 200
 }
 ```
 
